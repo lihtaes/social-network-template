@@ -3591,7 +3591,7 @@ div.article-content a.show-sidebar {
         
     color:#BCD4E0;
     
-    margin-right:17px;
+    margin-right: 17px;
     
     font-family:Museo-300, sans;
     
@@ -3835,8 +3835,8 @@ div.article-content a.show-sidebar {
     #footer {
         
         padding-left:30px;
-        
-        padding-right:30px;
+        font-size: 11px;
+        padding-right: 30px;
         
     }
     
@@ -3849,10 +3849,15 @@ div.article-content a.show-sidebar {
     #footer ul li {
         
         margin-right:5px;
-        
+
         margin-top:30px;
         
     }
+
+    #footer, #footer ul li a {
+        font-size: 11px;
+        margin-right: 5px;
+     }
     
     #footer .copyright {
         
@@ -4401,7 +4406,7 @@ and (min-width: 600px) and (max-width : 768px) {
     
     #footer ul li {
         
-        margin-right:5px;
+        margin-right:17px;
         
     }
     
